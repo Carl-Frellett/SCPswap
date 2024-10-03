@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>ScpSwap</AssemblyName>
+    <TargetFramework>net481</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Authors>Build</Authors>
+    <Version>1.1.2</Version>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <LangVersion>10</LangVersion>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EXILED-OFFICIAL" Version="8.12.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\source\repos\DSPlugin\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Mirror">
+      <HintPath>..\..\..\source\repos\DSPlugin\Managed\Mirror.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\source\repos\DSPlugin\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\source\repos\DSPlugin\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\source\repos\DSPlugin\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="宇宙无敌超级神威霸王龙SL的实用API">
+      <HintPath>..\..\..\source\repos\宇宙无敌超级神威霸王龙SL的实用API\宇宙无敌超级神威霸王龙SL的实用API\bin\x64\Release\宇宙无敌超级神威霸王龙SL的实用API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
